@@ -1,0 +1,11 @@
+framework module FZMSDK {
+  umbrella header "FZMSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module FZMSDK.Swift {
+    header "FZMSDK-Swift.h"
+    requires objc
+}
