@@ -16,19 +16,18 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FZMSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "2.0.0"
   spec.summary      = "A marquee view used on iOS"
-
   spec.description  = <<-DESC
                    It is a marquee view used on iOS, which implement by Objective-C.
                    DESC
   spec.homepage     = "https://github.com/fuzhimin/FZMSDK"
-  spec.license      = "MIT"
-  spec.author             = { "ron_fu" => "ron_fu@askey.com" }
-  spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/fuzhimin/FZMSDK.git", :tag => "#{spec.version}" }
-  spec.source_files  = "FZMSDK.framework/Headers/*.{h}"
-  #spec.requires_arc = true
+  spec.license      = { :type => "MIT", :file => "LICENSE"}
+  spec.author       = { "fuzhimin" => "ron.fu@cdskysoft.com" }
+  spec.platform     = :ios, "9.0"
   spec.vendored_frameworks = 'FZMSDK.framework'
-  spec.frameworks = 'Foundation'
+  spec.source_files  = "FZMSDK.framework/Headers/*.{h}"
+  spec.frameworks = 'UIKit', 'Foundation'
+  spec.module_name = 'FZMSDK'
 end
