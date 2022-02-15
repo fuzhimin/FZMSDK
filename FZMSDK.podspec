@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FZMSDK"
-  spec.version      = "5.0.0"
+  spec.version      = "6.0.0"
   spec.summary      = "A marquee view used on iOS"
 
   spec.description  = <<-DESC
@@ -27,8 +27,8 @@ Pod::Spec.new do |spec|
   spec.author             = { "ron_fu" => "ron_fu@askey.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/fuzhimin/FZMSDK.git", :tag => "#{spec.version}" }
-  spec.source_files  = "FZMSDK.framework/Headers/*.{h}"
+  spec.source_files  = "CameraSDK.framework/Headers/*.{h}"
   #spec.requires_arc = true
-  spec.vendored_frameworks = 'FZMSDK.framework'
+  spec.vendored_frameworks = 'CameraSDK.framework'
   spec.frameworks = 'Foundation'
 end
