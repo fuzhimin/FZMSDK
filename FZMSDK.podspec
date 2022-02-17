@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FZMSDK"
-  spec.version      = "8.0.0"
+  spec.version      = "9.0.0"
   spec.summary      = "A marquee view used on iOS"
 
   spec.description  = <<-DESC
@@ -31,5 +31,5 @@ Pod::Spec.new do |spec|
   #spec.requires_arc = true
   spec.vendored_frameworks = 'CameraSDK.framework'
   spec.frameworks = 'Foundation'
-  spec.libraries = 'z.1.2.11.tbd', 'iconv.2.4.0.tbd', 'bz2.1.0.tbd'
+  #spec.libraries = 'z.1.2.11', 'iconv.2.4.0.tbd', 'bz2.1.0.tbd'
 end
