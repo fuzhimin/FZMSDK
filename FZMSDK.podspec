@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FZMSDK"
-  spec.version      = "9.0.1"
+  spec.version      = "9.0.2"
   spec.summary      = "A marquee view used on iOS"
 
   spec.description  = <<-DESC
